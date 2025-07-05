@@ -53,7 +53,7 @@ const Login = () => {
                 <div>
                     <img src="/images/login.jpg" className=" h-full md:block hidden" />
                 </div>
-                <div className="  flex p-16 items-center flex-col justify-center gap-3 w-10/12 mx-auto ">
+                <div className="  flex md:p-16 p-4 items-center flex-col justify-center gap-3 w-10/12 mx-auto ">
                     <h1 className=" text-3xl  font-semibold text-center "> Welcome Back to SkillSwap! </h1>
 
                     <p className=" text-lg text-gray-500 "> Log in to continue your learning journey through peer-to-peer skill exchange. </p>

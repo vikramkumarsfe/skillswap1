@@ -106,6 +106,7 @@ const UpdateProfile = () => {
 
         if (imageUrl) {
             await set(ref(rtdb, `users/${user.uid}/photoURL`), imageUrl);
+            setProfilePic(imageUrl)
             alert("Profile image updated!");
         } else {
             alert("Failed to upload image.");

@@ -55,7 +55,7 @@ const SignUp = () => {
                 <div>
                     <img src="/images/login.jpg" className=" h-full md:block hidden" />
                 </div>
-                <div className="  flex px-16 py-8 items-center flex-col justify-center gap-3 w-[90%] mx-auto ">
+                <div className="  flex md:px-16 px-4  py-8 items-center flex-col justify-center gap-3 w-[90%] mx-auto ">
                     <h1 className=" text-3xl  font-semibold text-center "> Teach What You Know. Learn What You Need. </h1>
 
                     <p className=" text-lg text-gray-500 "> Sign up to exchange real-world skills with motivated learners and grow together. </p>
